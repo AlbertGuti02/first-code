@@ -15,14 +15,27 @@ body {
   padding: 20px;
   text-align: center;
   height: 50vh;
+  
+}
+.header h1 {
+  font-size: 60px;
+}
+.header p {
+  font-size: 40px;
+  color: white;
 }
 
 /* Ejemplo de estilos por clase */
 .column {
   float: left;
   width: 100%;
-  padding: 20px 20% ;
+  padding: 0 20% 0 20% ;
   /*Si son 4 es arriba derecha abajo izquierda, si son 2 son arriba/abajo y derecha/izquierda*/
+}
+.column h2 {
+  color: green;
+  text-align: center;
+  font-size: 30px;
 }
 
 /* Clear floats after the columns */
@@ -30,6 +43,22 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+/*Image Gallery*/
+.gallery {
+  padding: 20px;
+  float: left;
+  width: 33.33%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery desc {
+  padding: 15px;
+  text-align: center;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
