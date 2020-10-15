@@ -65,6 +65,27 @@
         text-align: center;
     }
     
+    .four-column {
+        padding: 20px;
+        float: left;
+        width: 25%;
+    }
+    
+    #footer-a {
+        background-color: #21252995;
+    }
+    
+    #footer-a p {
+        color: white;
+    }
+    
+    #footer-b {
+        background-color: #212529;
+        text-align: center;
+        color: white;
+        padding: 2%;
+    }
+    
     .clear {
         clear: both;
     }
